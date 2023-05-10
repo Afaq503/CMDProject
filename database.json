@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "a@gmail.com",
+      "password": "123456",
+      "admin": true
+    },
+    {
+      "name": "haseb",
+      "email": "h@gmail.com",
+      "password": "123456",
+      "admin": false,
+      "id": 2
+    },
+    {
+      "name": "haseb",
+      "email": "u@gmail.com",
+      "password": "123456",
+      "admin": false,
+      "id": 3
+    }
+  ],
+  "taskslist": [
+    {
+      "taskname": "Go to Home",
+      "taskdate": "2023-05-11",
+      "tasktime": "15:32",
+      "id": 1
+    },
+    {
+      "taskname": "kjdshfkjsd",
+      "taskdate": "2023-05-10",
+      "tasktime": "17:46",
+      "id": 2
+    }
+  ]
+}
