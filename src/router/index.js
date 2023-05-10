@@ -1,25 +1,49 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHashHistory } from "vue-router";
+import LoginView from "../views/LoginView.vue";
+import SignupView from "../views/SignupView.vue";
+import AdminView from "../components/Admin/AdminView.vue";
+import UserView from "../components/User/UserView.vue";
+import ListView from "../components/Admin/ListView.vue";
+import ToDoView from "../components/User/ToDoView.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: HomeView
+    path: "/",
+    name: "LoginView",
+    component: LoginView,
+  },
+
+  {
+    path: "/signup",
+    name: "Signup",
+    component: SignupView,
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
-]
+    path: "/admin",
+    name: "AdminView",
+    component: AdminView,
+  },
+  {
+    path: "/user",
+    name: "UserView",
+    component: UserView,
+  },
+  {
+    path: "/list",
+    name: "ListView",
+    component: ListView,
+  },
+  {
+    path: "/task",
+    name: "ToDoView",
+    component: ToDoView,
+  },
+];
 
 const router = createRouter({
+  // import.meta.env.BASE_URL
   history: createWebHashHistory(),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
