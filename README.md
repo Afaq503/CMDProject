@@ -23,11 +23,10 @@ yarn build
 Email: a@gmail.com
 Password: 123456
 
-```
 ## For Login as a User
-Email:    u@gmail.com
+
+Email: u@gmail.com
 Password: 123456
-```
 
 ## For online use
 
