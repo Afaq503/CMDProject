@@ -29,6 +29,10 @@ Email:    u@gmail.com
 Password: 123456
 ```
 
+## For online use
+
+Link: https://crmtodo.netlify.app/#/
+
 ## Json Server
 
 ```
