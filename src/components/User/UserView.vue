@@ -127,6 +127,7 @@ export default {
     timeRules: [(value) => !!value || "Time is required"],
     taskdate: "",
     dateRules: [(value) => !!value || "Date is required"],
+    user_id: "",
   }),
 
   methods: {
